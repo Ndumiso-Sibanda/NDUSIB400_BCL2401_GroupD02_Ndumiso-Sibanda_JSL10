@@ -1,46 +1,32 @@
-# [JSL10] Submission: Escaping Vanilla JS: Abstraction Challenge
+Escape Room Challenge
 
-You will:
-1. Use the provided Starter Code Repository: https://github.com/CodeSpace-Academy/Module_10_StudentNo_Classcode_Group_Name-Surname_JSL10
-2. Code your solution.
-3. Commit changes to your GitHub repository.
-4. Submit the GitHub Repository Link to the LMS [JSL10] Submission Project Tab.
+Challenges Faced
 
-The Escape Vanilla JS Challenge is an interactive web-based project focusing on debugging skills, problem-solving, and the concept of abstraction. You will navigate through three themed "rooms," each presenting a unique challenge that requires them to debug and correct given JavaScript code to proceed. This adventure is themed around escaping the confines of Vanilla JavaScript to advance towards learning React.
+During the development of this project, I faced several challenges, including:
 
-![alt text](<[JSL10 Solution].gif>)
+Handling asynchronous operations: I had to ensure that the application handled asynchronous operations correctly, particularly when fetching data from external files and simulating delays in the navigateLabyrinth function.
+Manipulating and comparing dates: I had to adjust the findMostRecentBook function to correctly compare dates and find the most recent book.
+Determining the intersection of two sets: I had to fix the findIntersection function to correctly determine the intersection of two sets.
+Handling user interactions: I had to ensure that the application responded correctly to user interactions, such as clicking buttons and displaying results.
 
-## What You Need to Do:
+Improvements
 
-1. Clone the provided Starter Code Repository to your local development environment (e.g., VSCode): https://github.com/CodeSpace-Academy/Module_10_StudentNo_Classcode_Group_Name-Surname_JSL10
-2. Open the cloned project in your code editor.
-3. Code your solution for each of the challenges as per the provided instructions.
-4. Commit your changes to your local Git repository with meaningful commit messages.
-5. Push your local Git repository to your GitHub account.
-6. Verify that the changes have been successfully pushed to your GitHub repository.
+While the application is functional, there are several areas for improvement, including:
 
-#### Debugging Tasks
+Error handling: The application currently lacks proper error handling, which could be added to improve the user experience.
+Accessibility: The application could be made more accessible by adding ARIA attributes, keyboard navigation, and other accessibility features.
+Styling: The application's styling is basic and could be improved with additional CSS or a CSS framework.
+Testing: The application could be tested more thoroughly to ensure that it works correctly in different browsers and on different devices.
 
-1. **Correct the ID used in the event listener for Room 1.**
-2. **Use the correct element ID when displaying results for Room 1.**
-3. **Add the missing 'async' keyword to the JS concepts set.**
-4. **Correct the function call to find the intersection of `jsConcepts` and `reactConcepts` for Room 2.**
-5. **Ensure asynchronous operations are handled correctly in Room 3, particularly by adding `await` before the promise in `navigateLabyrinth`.**
-6. **Adjust the `findMostRecentBook` function to correctly compare dates and find the most recent book.**
-7. **Fix the `findIntersection` function to correctly determine the intersection of two sets.**
-8. **Add the `await` keyword before `new Promise` in `navigateLabyrinth` to ensure the simulation of asynchronous operations works as intended.**
+What I Learned
 
-## What You Need to Include:
+During the development of this project, I learned about various JavaScript concepts, including:
 
-1. Ensure that your code includes the necessary modifications to meet the challenge requirements.
-2. Your GitHub repository should contain the updated code files.
+Asynchronous operations: I learned how to handle asynchronous operations using promises and the async/await syntax.
+Manipulating and comparing dates: I learned how to manipulate and compare dates using JavaScript's Date object.
+Determining the intersection of two sets: I learned how to determine the intersection of two sets using the Set object.
+Handling user interactions: I learned how to handle user interactions using JavaScript's addEventListener method.
 
-## How We'll Assess Your Work:
+Conclusion
 
-1. We will review your GitHub repository to ensure that it contains the updated code files.
-2. We will assess the modifications made to the code to verify that they effectively meet the challenge requirements.
-3. We will consider the commit history and meaningful commit messages to evaluate your coding process.
-
-
-
-
+In conclusion, the Escape Room Challenge was a fun and educational project that allowed me to practice various JavaScript concepts. Through this project, I was able to improve my skills in handling asynchronous operations, manipulating and comparing dates, determining the intersection of two sets, and handling user interactions. While there are areas for improvement, the project serves as a solid foundation for further learning and development.
