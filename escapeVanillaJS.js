@@ -22,14 +22,10 @@ document.addEventListener("DOMContentLoaded", () => {
  });
 
  document.getElementById("solveRoom3").addEventListener("click", async () => {
-  // 🪲 Bug: Added async keyword
-  fetch("directions.json")
-   .then((response) => response.json())
-   .then(async (directions) => {
-    // 🪲 Bug: Added async keyword
-    const message = await navigateLabyrinth(directions); // 🪲 Bug: Await the navigateLabyrinth function
-    document.getElementById("room3Result").innerHTML = message; // 🪲 Bug: Corrected method to innerHTML
-   });
+  const response = await fetch("directions.json");
+  const directions = await response.json();
+  const message = await navigateLabyrinth(directions);
+  document.getElementById("room3Result").innerHTML = message;
  });
 });
 
